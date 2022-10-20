@@ -1,0 +1,94 @@
+body{
+    background-image:url("https://i.makeagif.com/media/1-04-2021/8XH2EB.gif");
+    background-size: 100%;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+#Descripcion-div{
+    background:  rgba(18, 14, 67, 0.98);
+    color: aqua;
+    margin:-10;
+    width: 100%;
+    height: 170px;
+    padding-top: 7px;
+    left: 0;
+    top: 0;
+}
+
+.div_speed{
+    float: left;
+    
+}
+
+.div_speed_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#speed{
+    font-size: 40px;
+    background-color: aqua;
+    width: 130px;
+    height:50px;
+    border-radius: 7px;
+    color: rgb(21, 8, 27);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#speed:hover{
+    background-color:rgb(153, 25, 132);
+    right: 20px;
+}
+
+.div_volume_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.div_volume{
+    float: right;
+}
+
+#Volume{
+    font-size: 40px;
+    background-color: aqua;
+    width: 140px;
+    height:53px;
+    border-radius: 7px;
+    color: rgb(21, 8, 27);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Volume:hover{
+    background-color:rgb(153, 25, 132);
+    right: 20px;
+}
+
+#reproducir{
+    font-size: 40px;
+    background-color: aqua;
+    width: 220px;
+    height:53px;
+    border-radius: 7px;
+    color: rgb(21, 8, 27);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#reproducir:hover{
+    background-color:rgb(153, 25, 132);
+    right: 20px;
+}
+
+canvas{
+    border-radius: 7px;
+    border: aqua 3px solid;
+    box-shadow: 20px, 20px, 20px rgb(153, 25, 132);
+    margin: 250px;
+    
+}

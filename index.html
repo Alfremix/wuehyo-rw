@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <title>Volumen y Velocidad</title>
+</head>
+<body>
+    <center>
+        <div id="Descripcion-div">
+            <h1>Volumen y velocidad</h1>
+            <hr>
+            <h3>Mueve tu muñeca izquierda para subir o bajar el Volumen, mueve tu muñeca derecha para subir o bajar la Velocidad</h3>
+        </div>
+        <div class="div_speed">
+            <img src="https://static.wikia.nocookie.net/4732c141-9dbe-4d7b-9dd0-9af4e61c4c1f" class="div_speed_img">
+            <br>
+            <h3  id="speed">speed</h3>
+        </div>
+        <div class="div_volume">
+            <img src="https://static.wikia.nocookie.net/4732c141-9dbe-4d7b-9dd0-9af4e61c4c1f" class="div_volume_img">
+            <br>
+            <h3  id="Volume">Volume</h3>
+        </div>
+        <br>
+        <br>
+        
+        <button id="reproducir" onclick="play()">Reproducir</button>
+    </center>
+</body>
+<script src="main.js"></script>
+</html>
